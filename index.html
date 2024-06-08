@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+      * {
+        font-family: "Outfit", sans-serif;
+      }
+      :root {
+        --Grashiblue: #d5e1ef;
+        --lightGray: #7d889e;
+        --white: hsl(0, 0%, 100%);
+        --darkBlue: hsl(218, 44%, 22%);
+      }
+    </style>
+  </head>
+  <body
+    class="flex justify-center items-center h-screen"
+    style="background: var(--Grashiblue)"
+  >
+    <div
+      class="flex flex-col text-center p-4 rounded-lg container mx-auto mx-4"
+      style="width: 20rem; background: var(--white)"
+    >
+      <img src="./images/image-qr-code.png" alt="" class="rounded-lg" />
+      <h1 class="py-4 text-2xl font-bold">
+        Improve your front-end skills by building projects
+      </h1>
+      <p
+        style="font-weight: 400; color: var(--lightGray)"
+        class="pb-4 text-base font-normal"
+      >
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+  </body>
+</html>
